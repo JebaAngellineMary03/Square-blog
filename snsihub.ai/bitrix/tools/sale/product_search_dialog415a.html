@@ -1,0 +1,371 @@
+<script>BX.loadCSS(['/bitrix/js/ui/design-tokens/dist/ui.design-tokens.min.css?171327662823463','../../panel/main/popup.min62fa.css?167109653420774','/bitrix/panel/main/login.min.css?176069619824465']);</script><script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script>(window.BX||top.BX).message({"pull_server_enabled":"Y","pull_config_timestamp":1769531010,"shared_worker_allowed":"Y","pull_guest_mode":"N","pull_guest_user_id":0,"pull_worker_mtime":1743166765});(window.BX||top.BX).message({"PULL_OLD_REVISION":"This page must be reloaded to ensure proper site functioning and to continue work."});</script>
+<script>(window.BX||top.BX).message({"JS_CORE_LOADING":"Loading...","JS_CORE_WINDOW_CLOSE":"Close","JS_CORE_WINDOW_EXPAND":"Expand","JS_CORE_WINDOW_NARROW":"Restore","JS_CORE_WINDOW_SAVE":"Save","JS_CORE_WINDOW_CANCEL":"Cancel","JS_CORE_H":"h","JS_CORE_M":"m","JS_CORE_S":"s","JS_CORE_NO_DATA":"- No data -","JSADM_AI_HIDE_EXTRA":"Hide extra items","JSADM_AI_ALL_NOTIF":"All notifications","JSADM_AUTH_REQ":"Authentication is required!","JS_CORE_WINDOW_AUTH":"Log In","JS_CORE_IMAGE_FULL":"Full size","JS_CORE_WINDOW_CONTINUE":"Continue"});</script>
+
+<script src="../../js/main/core/core.min356e.js?1769512295245648"></script>
+
+<script>BX.Runtime.registerExtension({"name":"main.core","namespace":"BX","loaded":true});</script>
+<script>BX.setJSList(["\/bitrix\/js\/main\/core\/core_ajax.js","#\/bitrix\/js\/main\/core\/core_promise.js","#\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","#\/bitrix\/js\/main\/loadext\/loadext.js","#\/bitrix\/js\/main\/loadext\/extension.js","#\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","#\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","#\/bitrix\/js\/main\/polyfill\/includes\/js\/includes.js","#\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","#\/bitrix\/js\/ui\/polyfill\/closest\/js\/closest.js","#\/bitrix\/js\/main\/polyfill\/fill\/main.polyfill.fill.js","#\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","#\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","#\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","#\/bitrix\/js\/main\/core\/core.js","#\/bitrix\/js\/main\/polyfill\/intersectionobserver\/js\/intersectionobserver.js","#\/bitrix\/js\/main\/lazyload\/dist\/lazyload.bundle.js","#\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/parambag\/dist\/parambag.bundle.js"]);
+</script>
+<script>BX.Runtime.registerExtension({"name":"intranet.design-tokens.bitrix24","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.design-tokens","namespace":"window","loaded":true});</script>
+<script>(window.BX||top.BX).message({"JS_CORE_LOADING":"Loading...","JS_CORE_WINDOW_CLOSE":"Close","JS_CORE_WINDOW_EXPAND":"Expand","JS_CORE_WINDOW_NARROW":"Restore","JS_CORE_WINDOW_SAVE":"Save","JS_CORE_WINDOW_CANCEL":"Cancel","JS_CORE_H":"h","JS_CORE_M":"m","JS_CORE_S":"s","JS_CORE_NO_DATA":"- No data -","JSADM_AI_HIDE_EXTRA":"Hide extra items","JSADM_AI_ALL_NOTIF":"All notifications","JSADM_AUTH_REQ":"Authentication is required!","JS_CORE_WINDOW_AUTH":"Log In","JS_CORE_IMAGE_FULL":"Full size","JS_CORE_WINDOW_CONTINUE":"Continue"});</script>
+<script>BX.Runtime.registerExtension({"name":"window","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"admin_login","namespace":"window","loaded":true});</script>
+<script>(window.BX||top.BX).message({"LANGUAGE_ID":"en","FORMAT_DATE":"DD\/MM\/YYYY","FORMAT_DATETIME":"DD\/MM\/YYYY H:MI:SS T","COOKIE_PREFIX":"BITRIX_SM","SERVER_TZ_OFFSET":"10800","UTF_MODE":"Y","USER_ID":"","SERVER_TIME":1770368167,"USER_TZ_OFFSET":0,"USER_TZ_AUTO":"Y","bitrix_sessid":"c52d89dbb6c1cc57b8b938f47a9aae2a"});</script>
+
+
+<script src="../../js/pull/protobuf/protobufa897.js?1592315491274055"></script>
+<script src="../../js/pull/protobuf/model.min3e57.js?159231549114190"></script>
+<script src="../../js/main/core/core_promise.mind674.js?17647596972494"></script>
+<script src="../../js/rest/client/rest.client.min4924.js?16015491189240"></script>
+<script src="../../js/pull/client/pull.client.mind938.js?174471771449849"></script>
+<script src="../../js/main/core/core_window.minc111.js?176475969776324"></script>
+<script src="../../js/main/core/core_admin_login.minc617.js?176475969715759"></script>
+<script>
+					if (Intl && Intl.DateTimeFormat)
+					{
+						const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+						document.cookie = "BITRIX_SM_TZ=" + timezone + "; path=/; expires=Mon, 01 Feb 2027 00:00:00 +0300";
+						
+					}
+				</script>
+
+
+
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from snsihub.ai/bitrix/tools/sale/product_search_dialog.php?lang= by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 06 Feb 2026 08:56:07 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="initial-scale=1.0, width=device-width">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script>BX.loadCSS(['/bitrix/js/ui/design-tokens/dist/ui.design-tokens.min.css?171327662823463','../../panel/main/popup.min62fa.css?167109653420774','/bitrix/panel/main/login.min.css?176069619824465']);</script><title>Authorization - SNS Group</title>
+</head>
+<body id="bx-admin-prefix">
+<!--[if lte IE 7]>
+<style type="text/css">
+#login_wrapper {display:none !important;}
+</style>
+<div id="bx-panel-error">
+Control Panel doesn't support Internet Explorer 7 or below. Please install a modern browser: <a href="http://www.firefox.com">Firefox</a>, <a href="http://www.google.com/chrome/">Chrome</a>, <a href="http://www.opera.com">Opera</a> or <a href="http://www.microsoft.com/windows/internet-explorer/">Microsoft Edge</a>.</div><![endif]-->
+	<div id="login_wrapper" class="login-page login-page-bg login-main-wrapper">
+	<script>
+		BX.message({
+			'admin_authorize_error': 'Authentication failure',
+			'admin_forgot_password_error': 'Error recovering password!',
+			'admin_change_password_error': 'Error changing password!',
+			'admin_authorize_info': 'Information',
+			'admin_push_otp_error': 'Error requesting confirmation.'
+		});
+
+		new BX.adminLogin({
+			form: 'form_auth',
+			start_form: 'authorize',
+			post_data: '',
+			popup_alignment: 'popup_alignment',
+			login_wrapper: 'login_wrapper',
+			window_wrapper: 'window_wrapper',
+			auth_form_wrapper: 'auth_form_wrapper',
+			login_variants: 'login_variants',
+			url: '/bitrix/tools/sale/product_search_dialog.php?lang='
+		});
+	</script>
+
+	<table class="login-popup-alignment">
+		<tr>
+			<td class="login-popup-alignment-2" id="popup_alignment">
+				<div class="login-header">
+					<a href="../../../index.html" class="login-logo">
+						<span class="login-logo-img"></span><span
+							class="login-logo-text">sns.bitrix24.in</span>
+					</a>
+					<div class="login-language-btn-wrap">
+						<div class="login-language-btn" id="login_lang_button">EN</div>
+					</div>
+				</div>
+
+				<div class="login-footer">
+					<div class="login-footer-left">Powered by <a href="https://www.bitrix24.com/">Bitrix24</a>. Copyright &copy; 2002-2026 Bitrix24</div>
+					<div class="login-footer-right">
+						<a href="https://helpdesk.bitrix24.com/" class="login-footer-link">Support</a>					</div>
+				</div>
+				<form name="form_auth" method="post" target="auth_frame" class="bx-admin-auth-form" action="#"
+					  novalidate>
+					<input type="hidden" name="AUTH_FORM" value="Y">
+					<div
+						id="auth_form_wrapper">
+<div class="login-main-popup-wrap login-popup-wrap" id="authorize">
+	<input type="hidden" name="TYPE" value="AUTH">
+	<div class="login-popup">
+		<div class="login-popup-title">Authorization</div>
+		<div class="login-popup-title-description">Please log in</div>
+
+		<div class="login-popup-field">
+			<div class="login-popup-field-title">Login</div>
+			<div class="login-input-wrap">
+				<input type="text" class="login-input" onfocus="BX.addClass(this.parentNode, 'login-input-active')" onblur="BX.removeClass(this.parentNode, 'login-input-active')" name="USER_LOGIN" value="" tabindex="1">
+				<div class="login-inp-border"></div>
+			</div>
+		</div>
+		<div class="login-popup-field" id="authorize_password">
+			<div class="login-popup-field-title">Password</div>
+			<div class="login-input-wrap">
+				<input type="password" class="login-input" onfocus="BX.addClass(this.parentNode, 'login-input-active')" onblur="BX.removeClass(this.parentNode, 'login-input-active')" name="USER_PASSWORD" tabindex="2">
+				<div class="login-inp-border"></div>
+			</div>
+			<input type="submit" value="" class="login-btn-green" name="Login" tabindex="4" onfocus="BX.addClass(this, 'login-btn-green-hover');" onblur="BX.removeClass(this, 'login-btn-green-hover')">
+			<div class="login-loading">
+				<img class="login-waiter" alt="" src="../../panel/main/images/login-waiter.gif">
+			</div>
+		</div>
+		<input type="hidden" name="captcha_sid" value="" />
+		<div class="login-popup-field login-captcha-field">
+			<div class="login-popup-field-title">Type the letters you see on the picture</div>
+			<div class="login-input-wrap">
+				<span class="login-captcha-wrap" id="captcha_image"></span><input type="text" onfocus="BX.addClass(this.parentNode, 'login-input-active')" onblur="BX.removeClass(this.parentNode, 'login-input-active')" name="captcha_word" class="login-input" tabindex="5" autocomplete="off">
+				<div class="login-inp-border"></div>
+			</div>
+		</div>
+	<div class="login-popup-checbox-block">
+		<input type="checkbox" class="adm-designed-checkbox" id="USER_REMEMBER" name="USER_REMEMBER" value="Y" tabindex="3" onfocus="BX.addClass(this.nextSibling, 'login-popup-checkbox-label-active')" onblur="BX.removeClass(this.nextSibling, 'login-popup-checkbox-label-active')"><label for="USER_REMEMBER" class="adm-designed-checkbox-label"></label>
+		<label for="USER_REMEMBER" class="login-popup-checkbox-label">Remember Me</label>
+	</div>
+			<a class="login-popup-link login-popup-forget-pas" href="javascript:void(0)" onclick="BX.adminLogin.toggleAuthForm('forgot_password')">Forgot password?</a>
+
+		<div class="login-popup-field login-auth-serv-icons">
+			<a href="#" class="login-ss-button bitrix24net-button bitrix24net-button-ru"></a>
+		</div>
+	<div class="login-popup-network-block">
+		<span class="login-popup-network-label">or login using</span>
+		<span class="login-popup-network-btn login-popup-network-btn-en" onclick="BX.util.popup('https://www.bitrix24.net/oauth/authorize/?user_lang=en&amp;client_id=b24.5d7d35a6a26693.36885163&amp;redirect_uri=https%3A%2F%2Fsns.bitrix24.in%2Fbitrix%2Ftools%2Fsale%2Fproduct_search_dialog.php%3Fauth_service_id%3DBitrix24Net%26lang%3D&amp;scope=auth,profile,admin&amp;response_type=code&amp;mode=popup&amp;state=s1.1.6dadb102b8f80c3fceb3470b677e7018895ed00805ae89c93c3f0c63', 800, 600);"></span>
+	</div>
+
+	</div>
+</div>
+<script>
+BX.adminLogin.registerForm(new BX.authFormAuthorize('authorize', {url: '/bitrix/tools/sale/product_search_dialog.php?login=yes&lang='}));
+</script>
+</div>
+
+					<input type="hidden" name="sessid" id="sessid" value="c52d89dbb6c1cc57b8b938f47a9aae2a" />				</form>
+			</td>
+		</tr>
+	</table>
+
+	<iframe name="auth_frame" src="#" style="display:none;"></iframe>
+
+	<div id="login_variants" style="display: none;">
+		
+<div id="forgot_password" class="login-popup-wrap-with-text">
+	<div class="login-popup-wrap login-popup-request-wrap">
+		<input type="hidden" name="TYPE" value="SEND_PWD">
+		<div class="login-popup">
+			<div class="login-popup-title">Password request</div>
+			<div class="login-popup-title-description">Send me checkword</div>
+			<div class="login-popup-request-fields-wrap" id="forgot_password_fields">
+				<div class="login-popup-field">
+					<div class="login-popup-field-title">Login</div>
+					<div class="login-input-wrap">
+						<input type="text" onfocus="BX.addClass(this.parentNode, 'login-input-active')" onblur="BX.removeClass(this.parentNode, 'login-input-active')" class="login-input"  name="USER_LOGIN" value="">
+						<div class="login-inp-border"></div>
+					</div>
+				</div>
+				<div class="login-popup-either">or</div>
+				<div class="login-popup-field">
+					<div class="login-popup-field-title">E-mail</div>
+					<div class="login-input-wrap">
+						<input type="text" onfocus="BX.addClass(this.parentNode, 'login-input-active')" onblur="BX.removeClass(this.parentNode, 'login-input-active')" class="login-input" name="USER_EMAIL">
+						<div class="login-inp-border"></div>
+					</div>
+				</div>
+				<input type="hidden" name="captcha_sid" value="" />
+				<div class="login-popup-field login-captcha-field">
+					<div class="login-popup-field-title">Type the letters you see on the picture</div>
+					<div class="login-input-wrap">
+						<span class="login-captcha-wrap" id="captcha_image"></span><input type="text" onfocus="BX.addClass(this.parentNode, 'login-input-active')" onblur="BX.removeClass(this.parentNode, 'login-input-active')" name="captcha_word" class="login-input" tabindex="5" autocomplete="off">
+						<div class="login-inp-border"></div>
+					</div>
+				</div>
+			</div>
+			<div class="login-btn-wrap" id="forgot_password_message_button"><a class="login-popup-link login-popup-return-auth" href="javascript:void(0)" onclick="BX.adminLogin.toggleAuthForm('authorize')">Login</a><input type="submit" value="Send" class="login-btn" name="send_account_info"></div>
+		</div>
+	</div>
+	<div class="login-popup-request-text" id="forgot_password_note">
+		If you cannot remember your password, enter your login or e-mail you have used for registration. A message containing the checkword you can use to change the password will be sent to your e-mail.<br>
+	</div>
+</div>
+
+<script>
+var obForgMsg = new BX.authFormForgotPasswordMessage('forgot_password_message', {url:''}),
+	obForg = new BX.authFormForgotPassword('forgot_password', {
+		url: '/bitrix/tools/sale/product_search_dialog.php?forgot_password=yes&lang=',
+		needCaptcha: false,
+		message: obForgMsg
+});
+BX.adminLogin.registerForm(obForg);
+BX.adminLogin.registerForm(obForgMsg);
+</script>
+
+<div id="change_password" class="login-popup-wrap login-popup-replace-wrap">
+	<input type="hidden" name="TYPE" value="CHANGE_PWD">
+	<div class="login-popup">
+		<div class="login-popup-title">Change password</div>
+		<div class="login-popup-title-description">Please enter the checkword and your new password</div>
+		<div class="login-popup-replace-fields-wrap" id="change_password_fields">
+			<div class="login-popup-field">
+				<div class="login-popup-field-title">Login</div>
+				<div class="login-input-wrap">
+					<input type="email" onfocus="BX.addClass(this.parentNode, 'login-input-active')" onblur="BX.removeClass(this.parentNode, 'login-input-active')" class="login-input" name="USER_LOGIN" value="">
+					<div class="login-inp-border"></div>
+				</div>
+			</div>
+			<div class="login-popup-field">
+				<div class="login-popup-field-title">Checkword</div>
+				<div class="login-input-wrap">
+					<input type="text" onfocus="BX.addClass(this.parentNode, 'login-input-active')" onblur="BX.removeClass(this.parentNode, 'login-input-active')" class="login-input" name="USER_CHECKWORD" value="">
+					<div class="login-inp-border"></div>
+				</div>
+			</div>
+			<div class="login-popup-field login-replace-field">
+				<div class="login-popup-field-title"><span class="login-replace-title">New password</span><span class="login-replace-title">Confirm password</span></div>
+				<div class="login-input-wrap">
+					<input type="password" onfocus="BX.addClass(this.parentNode, 'login-input-active')" onblur="BX.removeClass(this.parentNode, 'login-input-active')" class="login-input" name="USER_PASSWORD"><input type="password" onfocus="BX.addClass(this.parentNode, 'login-input-active')" onblur="BX.removeClass(this.parentNode, 'login-input-active')" class="login-input" name="USER_CONFIRM_PASSWORD">
+					<div class="login-inp-border"></div>
+				</div>
+			</div>
+			<input type="hidden" name="captcha_sid" value="" />
+			<div class="login-popup-field login-captcha-field">
+				<div class="login-popup-field-title">Type the letters you see on the picture</div>
+				<div class="login-input-wrap">
+					<span class="login-captcha-wrap" id="captcha_image"></span><input type="text" onfocus="BX.addClass(this.parentNode, 'login-input-active')" onblur="BX.removeClass(this.parentNode, 'login-input-active')" name="captcha_word" class="login-input" tabindex="5" autocomplete="off">
+					<div class="login-inp-border"></div>
+				</div>
+			</div>
+		</div>
+		<a href="javascript:void(0)" onclick="toggleAuthForm('forgot_password')" style="display: none;" id="change_password_forgot_link" class="login-popup-forget-pas">Recover password</a>
+		<div class="login-btn-wrap" id="change_password_button"><a class="login-popup-link login-popup-return-auth" href="javascript:void(0)" onclick="BX.adminLogin.toggleAuthForm('authorize')">Login</a><input type="submit" name="change_pwd" value="Change password" class="login-btn"></div>
+	</div>
+</div>
+
+<script>
+BX.message({
+	'AUTH_NEW_PASSWORD_CONFIRM_WRONG':'The passwords you entered did not match.'
+});
+
+var obChangeMsg = new BX.authFormChangePasswordMessage('change_password_message', {url:''}),
+	obChange = new BX.authFormChangePassword('change_password', {
+		url: '/bitrix/tools/sale/product_search_dialog.php?change_password=yes&lang=',
+		needCaptcha: false,
+		message: obChangeMsg
+});
+BX.adminLogin.registerForm(obChange);
+BX.adminLogin.registerForm(obChangeMsg);
+</script>
+
+<div class="login-main-popup-wrap login-popup-wrap" id="otp">
+	<input type="hidden" name="TYPE" value="OTP">
+	<div class="login-popup">
+		<div class="login-popup-title">Authorization</div>
+		<div class="login-popup-title-description">Please log in</div>
+		<div class="login-popup-field">
+			<div class="login-popup-field-title">One-time password</div>
+			<div class="login-input-wrap">
+				<input type="text" class="login-input" onfocus="BX.addClass(this.parentNode, 'login-input-active')"
+					   onblur="BX.removeClass(this.parentNode, 'login-input-active')" name="USER_OTP" value=""
+					   tabindex="1" autocomplete="off">
+				<div class="login-inp-border"></div>
+			</div>
+			<input type="submit" value="" class="login-btn-green" name="Login" tabindex="5"
+				   onfocus="BX.addClass(this, 'login-btn-green-hover');"
+				   onblur="BX.removeClass(this, 'login-btn-green-hover')">
+			<div class="login-loading">
+				<img class="login-waiter" alt="" src="../../panel/main/images/login-waiter.gif">
+			</div>
+		</div>
+					<div class="login-popup-checbox-block">
+				<input type="checkbox" class="adm-designed-checkbox" id="OTP_REMEMBER" name="OTP_REMEMBER" value="Y"
+					   tabindex="3" onfocus="BX.addClass(this.nextSibling, 'login-popup-checkbox-label-active')"
+					   onblur="BX.removeClass(this.nextSibling, 'login-popup-checkbox-label-active')"><label
+					for="OTP_REMEMBER" class="adm-designed-checkbox-label"></label>
+				<label for="OTP_REMEMBER"
+					   class="login-popup-checkbox-label">Remember password on this computer</label>
+			</div>
+				<input type="hidden" name="captcha_sid" value=""/>
+		<div class="login-popup-field login-captcha-field">
+			<div class="login-popup-field-title">Type the letters you see on the picture</div>
+			<div class="login-input-wrap">
+				<span class="login-captcha-wrap" id="captcha_image"></span><input type="text" onfocus="BX.addClass(this.parentNode, 'login-input-active')"
+										   onblur="BX.removeClass(this.parentNode, 'login-input-active')"
+										   name="captcha_word" class="login-input" tabindex="4" autocomplete="off">
+				<div class="login-inp-border"></div>
+			</div>
+		</div>
+					<a class="login-popup-link login-popup-forget-pas" href="javascript:void(0)"
+			   onclick="BX.adminLogin.toggleAuthForm('authorize')">Login</a>
+			</div>
+</div>
+
+<script>
+	BX.adminLogin.registerForm(
+		new BX.authFormOtp(
+			'otp',
+			{"url":"\/bitrix\/tools\/sale\/product_search_dialog.php?lang=","pullConfig":[]}		)
+	);
+</script>
+
+		<div id="forgot_password_message" class="login-popup-wrap login-popup-ifo-wrap">
+			<div class="login-popup">
+				<div class="login-popup-title">Password request</div>
+				<div class="login-popup-title-description">Checkword has been sent.</div>
+				<div class="login-popup-message-wrap">
+					<div class="adm-info-message-wrap adm-info-message-green">
+						<div class="adm-info-message" id="forgot_password_message_inner"></div>
+					</div>
+				</div>
+				<a class="login-popup-link" href="javascript:void(0)"
+				   onclick="BX.adminLogin.toggleAuthForm('change_password')">Change password</a>
+			</div>
+		</div>
+
+		<div id="change_password_message" class="login-popup-wrap login-popup-ifo-wrap">
+			<div class="login-popup">
+				<div class="login-popup-title">Change password</div>
+				<div class="login-popup-message-wrap">
+					<div class="adm-info-message-wrap adm-info-message-green">
+						<div class="adm-info-message" id="change_password_message_inner"></div>
+					</div>
+				</div>
+				<a class="login-popup-link" href="javascript:void(0)"
+				   onclick="BX.adminLogin.toggleAuthForm('authorize')">Log in</a>
+			</div>
+		</div>
+
+	</div>
+<script>
+	BX.ready(function(){BX.defer(BX.adminLogin.setAuthResult, BX.adminLogin)({"TYPE":"ERROR","MESSAGE":"Access denied.","CAPTCHA":false});});
+</script>
+
+	</div>
+	<div style="display: none;" id="window_wrapper"></div>
+
+<script>
+BX.ready(BX.defer(function(){
+	BX.addClass(document.body, 'login-animate');
+	BX.addClass(document.body, 'login-animate-popup');
+
+	//preload admin scripts&styles
+	setTimeout(function() {
+		BX.load(['/bitrix/panel/main/admin.css?1716997395129769','../../panel/main/admin-public87cb.css?175369955767557','../../panel/main/adminstyles_fixed3e46.css?156455358121451','/bitrix/themes/.default/modules.css?1769528780199039']);
+		BX.load(['/bitrix/js/main/utils.js?161286731029279','../../js/main/admin_toolsd520.js?171699739567947','../../js/main/popup_menu7df3.js?142902392712913','../../js/main/admin_search2dec.js?15301032777230','../../js/main/dd0abf.js?168130227614809','../../js/main/date/main.date901c.js?174161463762683','../../js/main/core/core_dated315.js?176475969736251','../../js/main/core/core_admin_interface69c2.js?1764759697154843','../../js/main/core/core_autosave59ff.js?17647596979742','/bitrix/js/main/core/core_fx.js?']);
+	}, 2000);
+}));
+
+new BX.COpener({DIV: 'login_lang_button', ACTIVE_CLASS: 'login-language-btn-active', MENU: [{"TEXT":"(en) English","LINK":"\/bitrix\/tools\/sale\/product_search_dialog.php?lang=en"},{"TEXT":"(de) Deutsch","LINK":"\/bitrix\/tools\/sale\/product_search_dialog.php?lang=de"},{"TEXT":"(ru) Русский","LINK":"\/bitrix\/tools\/sale\/product_search_dialog.php?lang=ru"},{"TEXT":"(ua) Українська","LINK":"\/bitrix\/tools\/sale\/product_search_dialog.php?lang=ua"},{"TEXT":"(la) Español","LINK":"\/bitrix\/tools\/sale\/product_search_dialog.php?lang=la"},{"TEXT":"(vn) Tiếng Việt","LINK":"\/bitrix\/tools\/sale\/product_search_dialog.php?lang=vn"},{"TEXT":"(tr) Türkçe","LINK":"\/bitrix\/tools\/sale\/product_search_dialog.php?lang=tr"},{"TEXT":"(th) ภาษาไทย","LINK":"\/bitrix\/tools\/sale\/product_search_dialog.php?lang=th"},{"TEXT":"(tc) 中文（繁體）","LINK":"\/bitrix\/tools\/sale\/product_search_dialog.php?lang=tc"},{"TEXT":"(sc) 中文（简体）","LINK":"\/bitrix\/tools\/sale\/product_search_dialog.php?lang=sc"},{"TEXT":"(pl) Polski","LINK":"\/bitrix\/tools\/sale\/product_search_dialog.php?lang=pl"},{"TEXT":"(ms) Bahasa Melayu","LINK":"\/bitrix\/tools\/sale\/product_search_dialog.php?lang=ms"},{"TEXT":"(ja) 日本語","LINK":"\/bitrix\/tools\/sale\/product_search_dialog.php?lang=ja"},{"TEXT":"(it) Italiano","LINK":"\/bitrix\/tools\/sale\/product_search_dialog.php?lang=it"},{"TEXT":"(id) Bahasa Indonesia","LINK":"\/bitrix\/tools\/sale\/product_search_dialog.php?lang=id"},{"TEXT":"(fr) Français","LINK":"\/bitrix\/tools\/sale\/product_search_dialog.php?lang=fr"},{"TEXT":"(br) Português (Brasil)","LINK":"\/bitrix\/tools\/sale\/product_search_dialog.php?lang=br"},{"TEXT":"(in) Indian","LINK":"\/bitrix\/tools\/sale\/product_search_dialog.php?lang=in"},{"TEXT":"(kz) Қазақша","LINK":"\/bitrix\/tools\/sale\/product_search_dialog.php?lang=kz"},{"TEXT":"(ar) اَلْعَرَبِيَّةُ","LINK":"\/bitrix\/tools\/sale\/product_search_dialog.php?lang=ar"}]});
+</script>
+</body>
+
+<!-- Mirrored from snsihub.ai/bitrix/tools/sale/product_search_dialog.php?lang= by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 06 Feb 2026 08:56:07 GMT -->
+</html>

@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=320">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+	<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<link rel="preload" href="/bitrix/templates/login/images/bg/winter/horizontal-1920-preview.webp" as="image">
+	<link rel="preload" href="/bitrix/templates/login/images/bg/winter/horizontal-1024-preview.webp" as="image">
+	<link rel="preload" href="/bitrix/templates/login/images/bg/winter/vert-1024-preview.webp" as="image">
+	<script data-skip-moving="true">(function() {const canvas = document.createElement('canvas');let gl;try{gl = canvas.getContext('webgl2') || canvas.getContext('webgl') || canvas.getContext('experimental-webgl');}catch (e){return;}if (!gl){return;}const result = {vendor: gl.getParameter(gl.VENDOR),renderer: gl.getParameter(gl.RENDERER),};const debugInfo = gl.getExtension('WEBGL_debug_renderer_info');if (debugInfo){result.unmaskedVendor = gl.getParameter(debugInfo.UNMASKED_VENDOR_WEBGL);result.unmaskedRenderer = gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL);}function isLikelyIntegratedGPU(gpuInfo){const renderer = (gpuInfo.unmaskedRenderer || gpuInfo.renderer || '').toLowerCase();const vendor = (gpuInfo.unmaskedVendor || gpuInfo.vendor || '').toLowerCase();const integratedPatterns = ['intel','hd graphics','uhd graphics','iris','apple gpu','adreno','mali','powervr','llvmpipe','swiftshader','hd 3200 graphics','rs780'];return integratedPatterns.some(pattern => renderer.includes(pattern) || vendor.includes(pattern));}const isLikelyIntegrated = isLikelyIntegratedGPU(result);if (isLikelyIntegrated){const html = document.documentElement;html.classList.add('bx-integrated-gpu', '--ui-reset-bg-blur');}})();</script>
+<script data-skip-moving="true">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Windows/i.test(ua)){cl += ' bx-win';}else if (/Macintosh/i.test(ua)){cl += " bx-mac";}else if (/Linux/i.test(ua) && !/Android/i.test(ua)){cl += " bx-linux";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";if (/Safari/i.test(ua) && !/Chrome/i.test(ua)){cl += " bx-safari";}else if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Firefox/.test(ua)){cl += " bx-firefox";}ht.className = htc ? htc + " " + cl : cl;})(window, document, navigator);</script>
+
+
+<link href="/bitrix/js/intranet/intranet-common.min.css?166151605361199" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/ui/design-tokens/dist/ui.design-tokens.min.css?171327662823463" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/intranet/design-tokens/bitrix24/air-design-tokens.min.css?17539754263744" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/ui/fonts/opensans/ui.font.opensans.min.css?16620208132320" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/main/popup/dist/main.popup.bundle.min.css?174532104928056" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/ui/icons/base/ui.icons.base.min.css?16692129421067" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/ui/icons/b24/ui.icons.b24.min.css?17495470372396" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/ui/icons/disk/ui.icons.disk.min.css?17533494813322" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/ui/icons/service/ui.icons.service.min.css?176277737661453" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/ui/design-tokens/air/dist/air-design-tokens.min.css?1762777376109604" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/ui/switcher/dist/ui.switcher.bundle.min.css?17640822106763" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/ui/cnt/ui.cnt.min.css?17473213844259" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/ui/cnt/dist/cnt.bundle.min.css?17495470375784" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/ui/icon-set/icon-base.min.css?17627773751877" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/ui/icon-set/outline/style.min.css?1769420575112666" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/ui/icon-set/main/style.min.css?174732138474857" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/ui/buttons/dist/ui.buttons.bundle.min.css?176408221072758" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/ui/fonts/roboto/ui.font.roboto.min.css?16620208134037" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/ui/fonts/montserrat/ui.font.montserrat.min.css?16620208132209" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/js/ui/icon-set/actions/style.min.css?174732138419578" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/components/bitrix/intranet.404.error/templates/.default/style.min.css?1745920761726" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/templates/login/template_styles.min.css?176701468294195" type="text/css" rel="stylesheet" data-template-style="true"/>
+	
+
+
+
+
+
+
+	<title>Error 404</title>
+</head>
+
+
+<body class="intranet-bg intranet-bg--winter home en">
+<div class="intranet-body" id="login-auth-container">
+	<div class="intranet-body__header">
+		<div class="intranet-body__header-left"></div>
+		<div class="intranet-body__header-right">
+			<!-- teleport -->
+		</div>
+	</div>
+
+	<div class="intranet-body__aside intranet-auth-cover">
+		<div class="intranet-auth-cover-top">
+			<div class="intranet-auth-cover-img-block">
+				<a class="intranet-auth-cover__logo" href="">
+					<img
+						src="/bitrix/images/intranet/logo/bitrix24/en/bitrix24-logo-en-white.svg"
+						class="intranet-auth-cover__logo-image"
+						alt=""
+					>
+				</a>
+			</div>
+			<div class="intranet-auth-cover-header">
+				Your ultimate workspace			</div>
+		</div>
+	</div>
+	<div class="intranet-body__main intranet-auth-form">
+		<div class="intranet-body__main-content">
+
+
+
+<div class="error-404-block-wrap">
+	<div class="error-404-block">
+		<div class="error-404-text1">Unfortunately, the page you requested<br>was not found.</div>
+		<div class="error-404-text2">If you think this shouldn't have happened<br>please contact the website administrator.</div>
+		<div class="error-404-footer"></div>
+	</div>
+</div>
+		</div>
+	</div>
+
+	<div class="intranet-body__footer intranet-auth-cover-footer">
+		<div class="intranet-body__footer-left">
+						<div id="login-language-selector" class="intranet-backdrop-btn">
+				<span class="intranet-backdrop-btn__content">English</span>
+				<i class="intranet-language-selector-btn ui-icon-set --chevron-down"></i>
+			</div>
+					</div>
+		<div class="intranet-body__footer-right">
+			<!-- teleport -->
+		</div>
+	</div>
+</div>
+
+<script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script>(window.BX||top.BX).message({"pull_server_enabled":"Y","pull_config_timestamp":1769531010,"shared_worker_allowed":"Y","pull_guest_mode":"N","pull_guest_user_id":0,"pull_worker_mtime":1743166765});(window.BX||top.BX).message({"PULL_OLD_REVISION":"This page must be reloaded to ensure proper site functioning and to continue work."});</script>
+<script>(window.BX||top.BX).message({"JS_CORE_LOADING":"Loading...","JS_CORE_WINDOW_CLOSE":"Close","JS_CORE_WINDOW_EXPAND":"Expand","JS_CORE_WINDOW_NARROW":"Restore","JS_CORE_WINDOW_SAVE":"Save","JS_CORE_WINDOW_CANCEL":"Cancel","JS_CORE_H":"h","JS_CORE_M":"m","JS_CORE_S":"s","JS_CORE_NO_DATA":"- No data -","JSADM_AI_HIDE_EXTRA":"Hide extra items","JSADM_AI_ALL_NOTIF":"All notifications","JSADM_AUTH_REQ":"Authentication is required!","JS_CORE_WINDOW_AUTH":"Log In","JS_CORE_IMAGE_FULL":"Full size","JS_CORE_WINDOW_CONTINUE":"Continue"});</script><script src="/bitrix/js/main/core/core.min.js?1769512295245648"></script><script>BX.Runtime.registerExtension({"name":"main.core","namespace":"BX","loaded":true});</script>
+<script>BX.setJSList(["\/bitrix\/js\/main\/core\/core_ajax.js","\/bitrix\/js\/main\/core\/core_promise.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/loadext\/loadext.js","\/bitrix\/js\/main\/loadext\/extension.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/includes\/js\/includes.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/ui\/polyfill\/closest\/js\/closest.js","\/bitrix\/js\/main\/polyfill\/fill\/main.polyfill.fill.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/core\/core.js","\/bitrix\/js\/main\/polyfill\/intersectionobserver\/js\/intersectionobserver.js","\/bitrix\/js\/main\/lazyload\/dist\/lazyload.bundle.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/parambag\/dist\/parambag.bundle.js"]);
+</script>
+<script>BX.Runtime.registerExtension({"name":"intranet.design-tokens.bitrix24","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.design-tokens","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.fonts.opensans","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"main.popup","namespace":"BX.Main","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"popup","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.icons.base","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.icons.b24","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.icons.disk","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.icons.service","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.icons","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.design-tokens.air","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.icon-set.api.core","namespace":"BX.UI.IconSet","loaded":true});</script>
+<script>(window.BX||top.BX).message({"UI_SWITCHER_ON":"on","UI_SWITCHER_OFF":"off"});(window.BX||top.BX).message({"UI_SWITCHER_ON":"on","UI_SWITCHER_OFF":"off"});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.switcher","namespace":"BX.UI","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.cnt","namespace":"BX.UI","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.icon-set","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.icon-set.outline","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.icon-set.main","namespace":"window","loaded":true});</script>
+<script>(window.BX||top.BX).message({"UI_BUTTONS_SAVE_BTN_TEXT":"Save","UI_BUTTONS_CREATE_BTN_TEXT":"Create","UI_BUTTONS_ADD_BTN_TEXT":"Add","UI_BUTTONS_SEND_BTN_TEXT":"Send","UI_BUTTONS_CANCEL_BTN_TEXT":"Cancel","UI_BUTTONS_CLOSE_BTN_TEXT":"Close","UI_BUTTONS_APPLY_BTN_TEXT":"Apply"});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.buttons","namespace":"BX.UI","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.fonts.roboto","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.fonts.montserrat","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.icon-set.actions","namespace":"window","loaded":true});</script>
+<script>(window.BX||top.BX).message({"LANGUAGE_ID":"en","FORMAT_DATE":"DD\/MM\/YYYY","FORMAT_DATETIME":"DD\/MM\/YYYY H:MI:SS T","COOKIE_PREFIX":"BITRIX_SM","SERVER_TZ_OFFSET":"10800","UTF_MODE":"Y","SITE_ID":"s1","SITE_DIR":"\/","USER_ID":"","SERVER_TIME":1770368165,"USER_TZ_OFFSET":0,"USER_TZ_AUTO":"Y","bitrix_sessid":"c52d89dbb6c1cc57b8b938f47a9aae2a"});</script><script src="/bitrix/js/pull/protobuf/protobuf.js?1592315491274055"></script>
+<script src="/bitrix/js/pull/protobuf/model.min.js?159231549114190"></script>
+<script src="/bitrix/js/main/core/core_promise.min.js?17647596972494"></script>
+<script src="/bitrix/js/rest/client/rest.client.min.js?16015491189240"></script>
+<script src="/bitrix/js/pull/client/pull.client.min.js?174471771449849"></script>
+<script src="/bitrix/js/main/popup/dist/main.popup.bundle.min.js?176960609467330"></script>
+<script src="/bitrix/js/ui/icon-set/api/core/dist/ui.icon-set.core.bundle.min.js?176942057643597"></script>
+<script src="/bitrix/js/ui/switcher/dist/ui.switcher.bundle.min.js?17640822108553"></script>
+<script src="/bitrix/js/ui/cnt/dist/cnt.bundle.min.js?174954703710460"></script>
+<script src="/bitrix/js/ui/buttons/dist/ui.buttons.bundle.min.js?176942057561326"></script>
+<script>
+					if (Intl && Intl.DateTimeFormat)
+					{
+						const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+						document.cookie = "BITRIX_SM_TZ=" + timezone + "; path=/; expires=Mon, 01 Feb 2027 00:00:00 +0300";
+						
+					}
+				</script>
+
+
+
+<script>
+	(function()
+	{
+		BX.ready(function()
+		{
+			document.querySelector('#login-auth-container').classList.add("intranet-auth-animate");
+
+			var languageSelector = document.querySelector('#login-language-selector');
+			BX.bind(languageSelector, 'click', function()
+			{
+				BX.PopupMenu.show(
+					'lang-popup',
+					languageSelector,
+					[
+												{
+							text: "English",
+							onclick: function()
+							{
+								function changeLanguage(langCode)
+								{
+									var url = window.location.href;
+									url = url.replace(/(\?|\&)user_lang=[A-Za-z]{2}/, "");
+									url += (url.indexOf("?") == -1 ? "?" : "&") + "user_lang=" + langCode;
+									window.location.href = url;
+								}
+
+								changeLanguage('en');
+							}
+						},
+												{
+							text: "Bahasa Indonesia",
+							onclick: function()
+							{
+								function changeLanguage(langCode)
+								{
+									var url = window.location.href;
+									url = url.replace(/(\?|\&)user_lang=[A-Za-z]{2}/, "");
+									url += (url.indexOf("?") == -1 ? "?" : "&") + "user_lang=" + langCode;
+									window.location.href = url;
+								}
+
+								changeLanguage('id');
+							}
+						},
+												{
+							text: "Bahasa Melayu",
+							onclick: function()
+							{
+								function changeLanguage(langCode)
+								{
+									var url = window.location.href;
+									url = url.replace(/(\?|\&)user_lang=[A-Za-z]{2}/, "");
+									url += (url.indexOf("?") == -1 ? "?" : "&") + "user_lang=" + langCode;
+									window.location.href = url;
+								}
+
+								changeLanguage('ms');
+							}
+						},
+												{
+							text: "Deutsch",
+							onclick: function()
+							{
+								function changeLanguage(langCode)
+								{
+									var url = window.location.href;
+									url = url.replace(/(\?|\&)user_lang=[A-Za-z]{2}/, "");
+									url += (url.indexOf("?") == -1 ? "?" : "&") + "user_lang=" + langCode;
+									window.location.href = url;
+								}
+
+								changeLanguage('de');
+							}
+						},
+												{
+							text: "Español",
+							onclick: function()
+							{
+								function changeLanguage(langCode)
+								{
+									var url = window.location.href;
+									url = url.replace(/(\?|\&)user_lang=[A-Za-z]{2}/, "");
+									url += (url.indexOf("?") == -1 ? "?" : "&") + "user_lang=" + langCode;
+									window.location.href = url;
+								}
+
+								changeLanguage('la');
+							}
+						},
+												{
+							text: "Français",
+							onclick: function()
+							{
+								function changeLanguage(langCode)
+								{
+									var url = window.location.href;
+									url = url.replace(/(\?|\&)user_lang=[A-Za-z]{2}/, "");
+									url += (url.indexOf("?") == -1 ? "?" : "&") + "user_lang=" + langCode;
+									window.location.href = url;
+								}
+
+								changeLanguage('fr');
+							}
+						},
+												{
+							text: "Indian",
+							onclick: function()
+							{
+								function changeLanguage(langCode)
+								{
+									var url = window.location.href;
+									url = url.replace(/(\?|\&)user_lang=[A-Za-z]{2}/, "");
+									url += (url.indexOf("?") == -1 ? "?" : "&") + "user_lang=" + langCode;
+									window.location.href = url;
+								}
+
+								changeLanguage('in');
+							}
+						},
+												{
+							text: "Italiano",
+							onclick: function()
+							{
+								function changeLanguage(langCode)
+								{
+									var url = window.location.href;
+									url = url.replace(/(\?|\&)user_lang=[A-Za-z]{2}/, "");
+									url += (url.indexOf("?") == -1 ? "?" : "&") + "user_lang=" + langCode;
+									window.location.href = url;
+								}
+
+								changeLanguage('it');
+							}
+						},
+												{
+							text: "Polski",
+							onclick: function()
+							{
+								function changeLanguage(langCode)
+								{
+									var url = window.location.href;
+									url = url.replace(/(\?|\&)user_lang=[A-Za-z]{2}/, "");
+									url += (url.indexOf("?") == -1 ? "?" : "&") + "user_lang=" + langCode;
+									window.location.href = url;
+								}
+
+								changeLanguage('pl');
+							}
+						},
+												{
+							text: "Português (Brasil)",
+							onclick: function()
+							{
+								function changeLanguage(langCode)
+								{
+									var url = window.location.href;
+									url = url.replace(/(\?|\&)user_lang=[A-Za-z]{2}/, "");
+									url += (url.indexOf("?") == -1 ? "?" : "&") + "user_lang=" + langCode;
+									window.location.href = url;
+								}
+
+								changeLanguage('br');
+							}
+						},
+												{
+							text: "Tiếng Việt",
+							onclick: function()
+							{
+								function changeLanguage(langCode)
+								{
+									var url = window.location.href;
+									url = url.replace(/(\?|\&)user_lang=[A-Za-z]{2}/, "");
+									url += (url.indexOf("?") == -1 ? "?" : "&") + "user_lang=" + langCode;
+									window.location.href = url;
+								}
+
+								changeLanguage('vn');
+							}
+						},
+												{
+							text: "Türkçe",
+							onclick: function()
+							{
+								function changeLanguage(langCode)
+								{
+									var url = window.location.href;
+									url = url.replace(/(\?|\&)user_lang=[A-Za-z]{2}/, "");
+									url += (url.indexOf("?") == -1 ? "?" : "&") + "user_lang=" + langCode;
+									window.location.href = url;
+								}
+
+								changeLanguage('tr');
+							}
+						},
+												{
+							text: "Қазақша",
+							onclick: function()
+							{
+								function changeLanguage(langCode)
+								{
+									var url = window.location.href;
+									url = url.replace(/(\?|\&)user_lang=[A-Za-z]{2}/, "");
+									url += (url.indexOf("?") == -1 ? "?" : "&") + "user_lang=" + langCode;
+									window.location.href = url;
+								}
+
+								changeLanguage('kz');
+							}
+						},
+												{
+							text: "Русский",
+							onclick: function()
+							{
+								function changeLanguage(langCode)
+								{
+									var url = window.location.href;
+									url = url.replace(/(\?|\&)user_lang=[A-Za-z]{2}/, "");
+									url += (url.indexOf("?") == -1 ? "?" : "&") + "user_lang=" + langCode;
+									window.location.href = url;
+								}
+
+								changeLanguage('ru');
+							}
+						},
+												{
+							text: "Українська",
+							onclick: function()
+							{
+								function changeLanguage(langCode)
+								{
+									var url = window.location.href;
+									url = url.replace(/(\?|\&)user_lang=[A-Za-z]{2}/, "");
+									url += (url.indexOf("?") == -1 ? "?" : "&") + "user_lang=" + langCode;
+									window.location.href = url;
+								}
+
+								changeLanguage('ua');
+							}
+						},
+												{
+							text: "اَلْعَرَبِيَّةُ",
+							onclick: function()
+							{
+								function changeLanguage(langCode)
+								{
+									var url = window.location.href;
+									url = url.replace(/(\?|\&)user_lang=[A-Za-z]{2}/, "");
+									url += (url.indexOf("?") == -1 ? "?" : "&") + "user_lang=" + langCode;
+									window.location.href = url;
+								}
+
+								changeLanguage('ar');
+							}
+						},
+												{
+							text: "ภาษาไทย",
+							onclick: function()
+							{
+								function changeLanguage(langCode)
+								{
+									var url = window.location.href;
+									url = url.replace(/(\?|\&)user_lang=[A-Za-z]{2}/, "");
+									url += (url.indexOf("?") == -1 ? "?" : "&") + "user_lang=" + langCode;
+									window.location.href = url;
+								}
+
+								changeLanguage('th');
+							}
+						},
+												{
+							text: "中文（简体）",
+							onclick: function()
+							{
+								function changeLanguage(langCode)
+								{
+									var url = window.location.href;
+									url = url.replace(/(\?|\&)user_lang=[A-Za-z]{2}/, "");
+									url += (url.indexOf("?") == -1 ? "?" : "&") + "user_lang=" + langCode;
+									window.location.href = url;
+								}
+
+								changeLanguage('sc');
+							}
+						},
+												{
+							text: "中文（繁體）",
+							onclick: function()
+							{
+								function changeLanguage(langCode)
+								{
+									var url = window.location.href;
+									url = url.replace(/(\?|\&)user_lang=[A-Za-z]{2}/, "");
+									url += (url.indexOf("?") == -1 ? "?" : "&") + "user_lang=" + langCode;
+									window.location.href = url;
+								}
+
+								changeLanguage('tc');
+							}
+						},
+												{
+							text: "日本語",
+							onclick: function()
+							{
+								function changeLanguage(langCode)
+								{
+									var url = window.location.href;
+									url = url.replace(/(\?|\&)user_lang=[A-Za-z]{2}/, "");
+									url += (url.indexOf("?") == -1 ? "?" : "&") + "user_lang=" + langCode;
+									window.location.href = url;
+								}
+
+								changeLanguage('ja');
+							}
+						},
+											],
+					{
+						offsetTop: 10,
+						offsetLeft: 42,
+						angle: {offset: 45},
+						animationOptions: false,
+						className: 'intranet-language-selector-popup',
+						bindOptions: {
+							position: 'top',
+							forceTop: true,
+						}
+					}
+				);
+			});
+		});
+	})();
+</script>
+
+</body>
+</html>

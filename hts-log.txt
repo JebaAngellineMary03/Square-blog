@@ -1,0 +1,43 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 06 Feb 2026 14:20:28 at https://snsihub.ai/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://snsihub.ai/ -O1 "D:\My Web Sites\Square-blog" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:20:56	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://snsihub.ai/)
+14:25:26	Error: 	"Not Found" (404) at link https://snsihub.ai/4|mep11q|https://cdn.bitrix24.com/b11752903/crm/form/loader_4.js (from https://snsihub.ai/)
+14:25:33	Warning: 	Found for https://snsihub.ai/bitrix/js/ui/icon-set/actions/images/more-(9-cubes/
+14:25:33	Warning: 	File has moved from https://snsihub.ai/bitrix/js/ui/icon-set/actions/images/more-(9-cubes/ to https://www.bitrix24.net/oauth/authorize/?user_lang=en&client_id=b24.5d7d35a6a26693.36885163&redirect_uri=https%3A%2F%2Fsns.bitrix24.in%2Fbitrix%2Fjs%2Fui%2Ficon-set%2Factions%2Fimages%2Fmore-%289-cubes%2F%3Fauth_service_id%3DBitrix24Net&scope=auth,profile&response_type=code&mode=page&state=s1.0.e50f59f7e6216b4885de49a26a55cee0712015863b62393a01dc46eb
+14:25:34	Warning: 	Warning: store application/octet-stream without scan: D:/My Web Sites/Square-blog/snsihub.ai/bitrix/js/ui/icon-set/main/images/file-check-1.svg
+14:25:35	Error: 	"Not Found" (404) at link https://snsihub.ai/Bun/ (from https://snsihub.ai/bitrix/js/main/core/core.min.js?1764759697242882)
+14:25:35	Error: 	"Not Found" (404) at link https://snsihub.ai/Deno/ (from https://snsihub.ai/bitrix/js/main/core/core.min.js?1764759697242882)
+14:25:35	Error: 	"Not Found" (404) at link https://snsihub.ai/Node.js/ (from https://snsihub.ai/bitrix/js/main/core/core.min.js?1764759697242882)
+14:25:35	Error: 	"Not Found" (404) at link https://snsihub.ai/GET/ (from https://snsihub.ai/bitrix/js/pull/protobuf/protobuf.js?1592315491274055)
+14:25:35	Error: 	"Not Found" (404) at link https://snsihub.ai/google/protobuf/ (from https://snsihub.ai/bitrix/js/pull/protobuf/protobuf.js?1592315491274055)
+14:25:35	Error: 	"Not Found" (404) at link https://snsihub.ai/POST/ (from https://snsihub.ai/bitrix/js/rest/client/rest.client.min.js?16015491189240)
+14:25:35	Error: 	"Not Found" (404) at link https://snsihub.ai/crm.activity.planner/slider.php (from https://snsihub.ai/bitrix/js/main/sidepanel/dist/side-panel.bundle.min.js?176475969791665)
+14:25:35	Error: 	"Not Found" (404) at link https://snsihub.ai/${t}/ (from https://snsihub.ai/bitrix/js/main/sidepanel/dist/side-panel.bundle.min.js?176475969791665)
+14:25:35	Error: 	"Not Found" (404) at link https://snsihub.ai/this.url (from https://snsihub.ai/bitrix/js/main/sidepanel/dist/side-panel.bundle.min.js?176475969791665)
+14:25:35	Error: 	"Not Found" (404) at link https://snsihub.ai/t.origin (from https://snsihub.ai/bitrix/js/main/sidepanel/dist/side-panel.bundle.min.js?176475969791665)
+14:25:40	Error: 	"Not Found" (404) at link https://snsihub.ai/true/ (from https://snsihub.ai/bitrix/templates/landing24/assets/vendor/jquery/jquery_landing.min.js?166385260095077)
+14:25:40	Error: 	"Not Found" (404) at link https://snsihub.ai/t/ (from https://snsihub.ai/bitrix/components/bitrix/landing.pub/templates/.default/script.min.js?17126771928487)
+14:26:07	Error: 	"Not Found" (404) at link https://snsihub.ai/bitrix/tools/Bun/ (from https://snsihub.ai/bitrix/js/main/core/core.min.js?1769512295245648)
+14:26:07	Error: 	"Not Found" (404) at link https://snsihub.ai/bitrix/tools/Deno/ (from https://snsihub.ai/bitrix/js/main/core/core.min.js?1769512295245648)
+14:26:07	Error: 	"Not Found" (404) at link https://snsihub.ai/bitrix/tools/Node.js/ (from https://snsihub.ai/bitrix/js/main/core/core.min.js?1769512295245648)
+14:26:07	Error: 	"Not Found" (404) at link https://snsihub.ai/bitrix/tools/r,a.location.origin (from https://snsihub.ai/bitrix/js/main/core/core.min.js?1769512295245648)
+14:26:07	Error: 	"Forbidden" (403) at link https://snsihub.ai/bitrix/admin/get_menu.php?lang= (from https://snsihub.ai/bitrix/js/main/admin_tools.js?171699739567947)
+14:26:07	Error: 	"Forbidden" (403) at link https://snsihub.ai/bitrix/admin/user_options.php?lang= (from https://snsihub.ai/bitrix/js/main/admin_tools.js?171699739567947)
+14:26:07	Error: 	"Not Found" (404) at link https://snsihub.ai/bitrix/tools/GET/ (from https://snsihub.ai/bitrix/js/main/admin_tools.js?171699739567947)
+14:26:07	Error: 	"Not Found" (404) at link https://snsihub.ai/bitrix/tools/POST/ (from https://snsihub.ai/bitrix/js/main/admin_tools.js?171699739567947)
+14:26:07	Error: 	"Forbidden" (403) at link https://snsihub.ai/bitrix/admin/user_options.php? (from https://snsihub.ai/bitrix/js/main/admin_tools.js?171699739567947)
+14:26:07	Error: 	"Forbidden" (403) at link https://snsihub.ai/bitrix/admin/user_options.php?action=delete&c= (from https://snsihub.ai/bitrix/js/main/admin_tools.js?171699739567947)
+14:26:07	Error: 	"Forbidden" (403) at link https://snsihub.ai/bitrix/admin/get_start_menu.php?lang= (from https://snsihub.ai/bitrix/js/main/admin_tools.js?171699739567947)
+14:26:07	Error: 	"Forbidden" (403) at link https://snsihub.ai/bitrix/admin/get_start_menu.php?mode=dynamic&lang= (from https://snsihub.ai/bitrix/js/main/admin_tools.js?171699739567947)
+14:26:07	Error: 	"Forbidden" (403) at link https://snsihub.ai/bitrix/admin/get_start_menu.php?mode=save_recent&url= (from https://snsihub.ai/bitrix/js/main/admin_tools.js?171699739567947)
+14:26:07	Error: 	"Forbidden" (403) at link https://snsihub.ai/bitrix/admin/get_menu.php (from https://snsihub.ai/bitrix/js/main/core/core_admin_interface.js?1764759697154843)
+14:26:08	Error: 	"Forbidden" (403) at link https://snsihub.ai/bitrix/admin/filter_act.php (from https://snsihub.ai/bitrix/js/main/core/core_admin_interface.js?1764759697154843)
+
+HTTrack Website Copier/3.49-2 mirror complete in 5 minutes 40 seconds : 1390 links scanned, 1359 files written (8890607 bytes overall) [6087626 bytes received at 17904 bytes/sec], 5778475 bytes transferred using HTTP compression in 1224 files, ratio 32%, 39.0 requests per connection
+(29 errors, 3 warnings, 0 messages)
